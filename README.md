@@ -1,6 +1,6 @@
 # nginx + spdy + pagespeed #
 
-install.sh script is able to compile:
+`install.sh` bash script is able to compile:
 - a parametric nginx version
 	- with a parametric openssl version   
 	- with a parametric pagespeed module version
