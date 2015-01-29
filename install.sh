@@ -41,7 +41,7 @@ cd ..
 cd nginx-${NGINX_VERSION}
 #Configuring 
 ./configure  \
---prefix=${CURRENT_DIR}/output \
+--prefix=/etc/nginx \
 --with-http_ssl_module \
 --with-http_spdy_module \
 --with-openssl=${OPENSSL_DIR} \
