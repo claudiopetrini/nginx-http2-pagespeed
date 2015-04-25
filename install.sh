@@ -4,7 +4,7 @@
 sudo apt-get install unzip zlibc zlib1g build-essential zlib1g-dev libpcre3 libpcre3-dev libssl-dev libxslt1-dev libxml2-dev libgd2-xpm-dev libgeoip-dev libgoogle-perftools-dev libperl-dev
 
 #nginx version
-NGINX_VERSION=1.7.11
+NGINX_VERSION=1.8.0
 
 #openssl version
 OPENSSL_VERSION=1.0.2a
