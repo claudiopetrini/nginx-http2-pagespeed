@@ -7,7 +7,7 @@ sudo apt-get install unzip zlibc zlib1g build-essential zlib1g-dev libpcre3 libp
 NGINX_VERSION=1.8.0
 
 #openssl version
-OPENSSL_VERSION=1.0.2a
+OPENSSL_VERSION=1.0.2c
 
 #ngx_pagespeed version
 NPS_VERSION=1.9.32.3
