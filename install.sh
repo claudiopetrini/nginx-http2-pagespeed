@@ -44,7 +44,6 @@ cd nginx-${NGINX_VERSION}
 --prefix=/etc/nginx \
 --with-http_ssl_module \
 --with-http_v2_module \
---with-http_spdy_module \
 --with-openssl=${OPENSSL_DIR} \
 --with-cc-opt="-Wno-deprecated-declarations" \
 --add-module=${CURRENT_DIR}/ngx_pagespeed-release-${NPS_VERSION}-beta
