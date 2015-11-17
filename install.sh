@@ -4,7 +4,7 @@
 sudo apt-get install unzip zlibc zlib1g build-essential zlib1g-dev libpcre3 libpcre3-dev libssl-dev libxslt1-dev libxml2-dev libgd2-xpm-dev libgeoip-dev libgoogle-perftools-dev libperl-dev curl
 
 #nginx version
-NGINX_VERSION=1.8.0
+NGINX_VERSION=1.9.5
 
 #openssl version
 OPENSSL_VERSION=1.0.2d
@@ -43,6 +43,7 @@ cd nginx-${NGINX_VERSION}
 ./configure  \
 --prefix=/etc/nginx \
 --with-http_ssl_module \
+--with-http_v2_module \
 --with-http_spdy_module \
 --with-openssl=${OPENSSL_DIR} \
 --with-cc-opt="-Wno-deprecated-declarations" \
