@@ -1,10 +1,10 @@
-# nginx + spdy + pagespeed #
+# nginx + http2 + pagespeed #
 
 `install.sh` bash script is able to compile:
 - a parametric nginx version
 	- with a parametric openssl version   
 	- with a parametric pagespeed module version
-	- with spdy protocol supported by default. 
+	- with http2 protocol supported by default. 
 
 ## Binary ##
 
